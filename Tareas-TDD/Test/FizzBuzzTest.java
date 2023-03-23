@@ -45,4 +45,32 @@ class FizzBuzzTest {
 
         assertEquals("Fizz", valorInicial);
     }
+
+    @Test
+    void testearNumero7() {
+        String valorInicial = FizzBuzz.returnNumber(7);
+
+        assertEquals("7", valorInicial);
+    }
+
+    @Test
+    void testearNumero8() {
+        String valorInicial = FizzBuzz.returnNumber(8);
+
+        assertEquals("8", valorInicial);
+    }
+
+    @Test
+    void testearNumero9() {
+        String valorInicial = FizzBuzz.returnNumber(9);
+
+        assertEquals("Fizz", valorInicial);
+    }
+
+    @Test
+    void testearNumero10() {
+        String valorInicial = FizzBuzz.returnNumber(10);
+
+        assertEquals("Buzz", valorInicial);
+    }
 }
