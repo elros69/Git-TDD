@@ -33,4 +33,11 @@ class CalculadoraTest {
         assertEquals(4, valorInicial);
     }
 
+    @Test
+    void devuelveNegativo1() {
+        Integer valorInicial = Calculadora.sumar("1","2","");
+
+        assertEquals(-1, valorInicial);
+    }
+
 }
